@@ -8,6 +8,7 @@ export function Inputs({ label, type, inputState, setInputState, ph }) {
     setInputState(event.target.value);
   }
 
+  
   useEffect(() => {
     console.log(`${label}: `, inputState);
   // eslint-disable-next-line react-hooks/exhaustive-deps
